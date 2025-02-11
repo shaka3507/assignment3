@@ -2,11 +2,11 @@
 
 ## Part 1
 
-ttt3.html url: shaka3507.github.io/assignment3/ttt3.html
+TTT3 can be found here: [ttt3.html](https://shaka3507.github.io/assignment3/ttt3.html)
 
 ## Part 2
 
-ttt4.html url: shaka3507.github.io/assignment3/ttt4.html
+TTT4 can be found here: [ttt4.html](https://shaka3507.github.io/assignment3/ttt4.html)
 
 ## Part 3
 
