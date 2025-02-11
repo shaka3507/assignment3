@@ -93,12 +93,12 @@
     </style>
 </head>
 
-<!-- PART1: add an event handler for the <div>’s that represent the squares such that when you
+<!-- add an event handler for the <div>’s that represent the squares such that when you
 click in a square it will put an X in the square and a popup will display the number of
 the square where 0 is the first square up to 8 for the last square. One event handler
 should be able to work for all squares. Modify the previous Javascript as needed. -->
 
-<!-- PART 2: Copy ttt3.html to ttt4.html. Add the following functionality.
+<!-- Copy ttt3.html to ttt4.html. Add the following functionality.
 • Alternate between X’s turn or O’s turn. Put the appropriate symbol (X or O) in the
 square when clicked.
 • Display whose turn it is in the div created previously.
@@ -143,7 +143,7 @@ square when clicked.
             if(randomNum > 0.5) {
                 userTurn = 'X'
             } else {
-                userTurn = 'Y'
+                userTurn = 'O'
             }
             console.log("userTurn", userTurn, randomNum)
             document.getElementById('turn').innerText = 'LUCKY ' + userTurn + ' YOU GO FIRST'
@@ -161,7 +161,7 @@ square when clicked.
                         if(currentSquare.innerText == '') {
                             currentSquare.innerText = userTurn
                             if(userTurn === 'X') {
-                                userTurn = 'Y'
+                                userTurn = 'O'
                             } else {
                                 userTurn = 'X'
                             }
