@@ -112,7 +112,7 @@ should be able to work for all squares. Modify the previous Javascript as needed
                 document.write("<div class='square' id='" + id + "'></div>");
             }
         </script>
-        <script>
+<!--  From TTT2       <script>
             // "X" ID Placements - 0, 4
             // "O" ID Placements -  2
             const xPlacements = [0,3]
@@ -128,8 +128,9 @@ should be able to work for all squares. Modify the previous Javascript as needed
                 let el = document.getElementById(`sq${oPlacements[i]}`)
                 el.innerText += 'O'
             }
-        </script>
+        </script> -->
         <script>
+            // Adding X on click, with alert that includes the index of the square
             window.onload = function () {
                 // find all the squares using query selector, by class name square
                 const squares = document.querySelectorAll('.square')
