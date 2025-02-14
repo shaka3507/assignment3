@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>TTT2 - Shaka Clark</title>
+    <title>TTT4 - Shaka Clark</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -92,12 +92,7 @@
 
     </style>
 </head>
-
-<!-- add an event handler for the <div>’s that represent the squares such that when you
-click in a square it will put an X in the square and a popup will display the number of
-the square where 0 is the first square up to 8 for the last square. One event handler
-should be able to work for all squares. Modify the previous Javascript as needed. -->
-
+<!-- Instructions -->
 <!-- Copy ttt3.html to ttt4.html. Add the following functionality.
 • Alternate between X’s turn or O’s turn. Put the appropriate symbol (X or O) in the
 square when clicked.
@@ -119,23 +114,6 @@ square when clicked.
                 document.write("<div class='square' id='" + id + "'></div>");
             }
         </script>
-<!--         <script>
-            // "X" ID Placements - 0, 4
-            // "O" ID Placements -  2
-            const xPlacements = [0,3]
-            const oPlacements = [2]
-            const el = document.getElementById('sq0')
-            // place the x's
-            for (i = 0; i < xPlacements.length; i++) {
-                let el = document.getElementById(`sq${xPlacements[i]}`)
-                el.innerText += 'X'
-            }
-            // place the o's
-            for (i = 0; i < oPlacements.length; i++) {
-                let el = document.getElementById(`sq${oPlacements[i]}`)
-                el.innerText += 'O'
-            }
-        </script> -->
         <script>
             // establish whose turn it is first
             var randomNum = Math.random(0,1)
@@ -145,7 +123,6 @@ square when clicked.
             } else {
                 userTurn = 'O'
             }
-            console.log("userTurn", userTurn, randomNum)
             document.getElementById('turn').innerText = 'LUCKY ' + userTurn + ' YOU GO FIRST'
 
             window.onload = function () {
