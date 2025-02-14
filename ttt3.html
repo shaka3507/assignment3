@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>TTT2 - Shaka Clark</title>
+    <title>TTT3 - Shaka Clark</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -92,7 +92,7 @@
 
     </style>
 </head>
-
+<!-- Instructions -->
 <!-- add an event handler for the <div>’s that represent the squares such that when you
 click in a square it will put an X in the square and a popup will display the number of
 the square where 0 is the first square up to 8 for the last square. One event handler
@@ -112,23 +112,6 @@ should be able to work for all squares. Modify the previous Javascript as needed
                 document.write("<div class='square' id='" + id + "'></div>");
             }
         </script>
-<!--  From TTT2       <script>
-            // "X" ID Placements - 0, 4
-            // "O" ID Placements -  2
-            const xPlacements = [0,3]
-            const oPlacements = [2]
-            const el = document.getElementById('sq0')
-            // place the x's
-            for (i = 0; i < xPlacements.length; i++) {
-                let el = document.getElementById(`sq${xPlacements[i]}`)
-                el.innerText += 'X'
-            }
-            // place the o's
-            for (i = 0; i < oPlacements.length; i++) {
-                let el = document.getElementById(`sq${oPlacements[i]}`)
-                el.innerText += 'O'
-            }
-        </script> -->
         <script>
             // Adding X on click, with alert that includes the index of the square
             window.onload = function () {
